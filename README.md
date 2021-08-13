@@ -1,2 +1,2 @@
 # AEDD-URI-Usuarios-Incompletos
-App desarrollada en python con PyQt5 para la recolección de alumnos que no tienen completo el campo país o el campo universidad en su perfil de URI Online Judge
+Mini proyecto para la cátedra *Algoritmos y Estructuras de Datos* de la **UTN - Facultad Regional de Santa Fe** en python, utilizando PyQt5 y Selenium para la recolección de alumnos que no tienen completo el campo país o el campo universidad en su perfil de URI Online Judge.
