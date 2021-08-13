@@ -1,5 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from QtDragAndDropWidget import DragAndDropWidget
+from UriScript import UriScript
+import multiprocessing
 
 
 class UI_MainWindow(QtWidgets.QMainWindow):
@@ -8,6 +10,8 @@ class UI_MainWindow(QtWidgets.QMainWindow):
 
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(640, 480)
+        self.spt = UriScript()
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
 
@@ -25,6 +29,7 @@ class UI_MainWindow(QtWidgets.QMainWindow):
         self.btn_comenzar.setGeometry(QtCore.QRect(490, 390, 131, 31))
         self.btn_comenzar.setObjectName("btn_comenzar")
         self.btn_comenzar.setEnabled(False)
+        self.btn_comenzar.clicked.connect(self.script)
 
         self.btn_ayuda = QtWidgets.QPushButton(self.centralwidget)
         self.btn_ayuda.setGeometry(QtCore.QRect(20, 390, 100, 31))
@@ -58,6 +63,13 @@ class UI_MainWindow(QtWidgets.QMainWindow):
                     "3) Presione el botón comenzar para procesar todos los usuarios y espere a que el proceso finalice.\n\n"+
                     "4) Una vez finalizado el proceso, se creará un archivo .xls (excel) con los usuarios que no contengan el perfil con el país y/o la universidad completos.")
         x = msg.exec_()
+
+    def script(self):
+        self.spt.setPath(self.wdg_file_drop.tedit_path.text())
+        proc = multiprocessing.Process(target=self.spt.exec)
+        proc.daemon = True
+        proc.start()
+        
 
 
 if __name__ == "__main__":
