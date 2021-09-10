@@ -19,6 +19,8 @@ class UriScript(QObject):
         self.path = ""
         self.driver = None
         self.cant_usuarios = 0
+        self.cant_incompletos = 0
+        self.no_existentes = 0
 
     def setPath(self,path):
         self.path = path
@@ -33,18 +35,19 @@ class UriScript(QObject):
     def validateProfile(self,id):
         
         self.driver.get("https://www.urionlinejudge.com.br/judge/en/profile/"+id)
-        print(id)
 
         try:
             pais = self.driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div[1]/ul/li[2]")
             uni = self.driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div[1]/ul/li[3]")
         
         except common.exceptions.NoSuchElementException: # no existe el usuario
+            self.no_existentes+=1
             return -1 
 
         if "AR" in pais.get_attribute('innerHTML') and "UTN" in uni.get_attribute('innerHTML'):
             return 1
-
+            
+        self.cant_incompletos+=1
         return 0
 
     def exec(self):

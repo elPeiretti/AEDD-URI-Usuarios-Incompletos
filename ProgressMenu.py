@@ -1,8 +1,8 @@
 from PyQt5 import QtCore, QtWidgets
-from PyQt5.QtWidgets import QWidget
-import multiprocessing
+from PyQt5.QtWidgets import QMessageBox, QWidget
 from UriScript import UriScript
 from PyQt5.QtCore import QThread
+import sys
 
 class ProgressMenu(QWidget):
     def __init__(self):
@@ -52,5 +52,12 @@ class ProgressMenu(QWidget):
         #todo
         msg = QtWidgets.QMessageBox()
         msg.setWindowTitle("Fin del proceso")
-        msg.setText("El proceso a finalizado exitosamente.")
-        x = msg.exec_()
+        msg.setText("El proceso a finalizado exitosamente.\n\n"+
+                    "- "+str(self.spt.cant_incompletos)+" usuarios se encuentran incompletos.\n\n"+
+                    "- "+str(self.spt.no_existentes)+" usuarios no fueron econtrados.\n\n"+
+                    "- En total, se han procesado "+str(self.spt.cant_usuarios)+" usuarios.")
+        msg.setStandardButtons(QMessageBox.Close)
+        msg.buttonClicked.connect(sys.exit)
+        msg.exec_()
+        
+        
