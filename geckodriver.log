@@ -1,0 +1,97 @@
+1631276492101	geckodriver	INFO	Listening on 127.0.0.1:60593
+1631276495101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofileR2JmCt"
+*** You are running in headless mode.
+1631276539363	geckodriver	INFO	Listening on 127.0.0.1:60647
+1631278118709	geckodriver	INFO	Listening on 127.0.0.1:65042
+1631278121718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofileBk5gPo"
+*** You are running in headless mode.
+1631278121950	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofileBk5gPo\\search.json.mozlz4", (void 0)))
+1631278122756	Marionette	INFO	Listening on port 65051
+1631278123233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1631279425817	geckodriver	INFO	Listening on 127.0.0.1:56202
+1631279428825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofileel6pPn"
+*** You are running in headless mode.
+1631279429050	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofileel6pPn\\search.json.mozlz4", (void 0)))
+1631279429845	Marionette	INFO	Listening on port 56210
+1631279430342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1631280652285	geckodriver	INFO	Listening on 127.0.0.1:51422
+1631280655292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofile2gRfHn"
+*** You are running in headless mode.
+1631280655518	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofile2gRfHn\\search.json.mozlz4", (void 0)))
+1631280656327	Marionette	INFO	Listening on port 51432
+1631280656807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+und" "-no-remote" "-profile" "C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofilej2Jvq3"
+*** You are running in headless mode.
+1631280765957	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofilej2Jvq3\\search.json.mozlz4", (void 0)))
+1631280766686	Marionette	INFO	Listening on port 51519
+1631280766746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+und" "-no-remote" "-profile" "C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofile468myW"
+*** You are running in headless mode.
+1631280954081	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tomas\\AppData\\Local\\Temp\\rust_mozprofile468myW\\search.json.mozlz4", (void 0)))
+1631280954912	Marionette	INFO	Listening on port 51622
+1631280955374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js, line 1: TypeError: j is not a function
+1631281284552	Marionette	INFO	Stopped listening on port 51622
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

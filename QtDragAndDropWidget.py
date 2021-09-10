@@ -1,6 +1,5 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QFileDialog, QWidget
-import sys
 import os
 
 class DragAndDropWidget(QWidget):

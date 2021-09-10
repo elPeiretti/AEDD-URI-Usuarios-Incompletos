@@ -3,18 +3,22 @@ from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium import common
 import time
-from datetime import date
-from datetime import datetime
+from PyQt5.QtCore import QObject, pyqtSignal
 
 # https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
 # pip install openpyxl
 # https://github.com/elPeiretti/python
 
-class UriScript():
+class UriScript(QObject):
     
+    progress = pyqtSignal(int)
+    finished = pyqtSignal()
+
     def __init__(self):
+        super().__init__()
         self.path = ""
         self.driver = None
+        self.cant_usuarios = 0
 
     def setPath(self,path):
         self.path = path
@@ -53,12 +57,15 @@ class UriScript():
             'Estudiante': [],
             'Email': []
         }
+        self.cant_usuarios = len(data)
 
         for i in range (len(data)):
-            id =data.loc[i,"uri"]
+            id = data.loc[i,"uri"]
             if self.validateProfile(str(id))==0:
                 listado.get('Estudiante').append(data.loc[i,"student"])
                 listado.get('Email').append(data.loc[i,"email"])
+            self.progress.emit(i+1)
 
         pandas.DataFrame(listado, columns=["Estudiante","Email"]).to_excel("excel.xlsx", index = False, header=True)
         self.driver.quit()
+        self.finished.emit()
