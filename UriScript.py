@@ -1,5 +1,6 @@
 import pandas
 from selenium import webdriver
+import selenium
 from selenium.webdriver import FirefoxOptions
 from selenium import common
 import time
@@ -34,7 +35,7 @@ class UriScript(QObject):
 
     def validateProfile(self,id):
         
-        self.driver.get("https://www.urionlinejudge.com.br/judge/en/profile/"+id)
+        self.driver.get("https://www.beecrowd.com.br/judge/es/profile/"+id)
 
         try:
             pais = self.driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div[1]/ul/li[2]")

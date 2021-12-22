@@ -34,7 +34,7 @@ class UI_MainWindow(QtWidgets.QMainWindow):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "TITULO"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Beecrowd profile checker"))
 
     def start(self):
         self.progressMenu.script(self.mainMenu.wdg_file_drop.tedit_path.text())

@@ -50,7 +50,7 @@ class MainMenu(QWidget):
         msg = QtWidgets.QMessageBox()
         msg.setWindowTitle("Ayuda")
         msg.setIcon(QtWidgets.QMessageBox.Question)
-        msg.setText("1) Descargue el archivo .csv del curso correspondiente en la página www.urionlinejudge.com.br/academic/, el cual se encuentra en el apartado 'Students' del curso seleccionado\n\n"+
+        msg.setText("1) Descargue el archivo .csv del curso correspondiente en la página www.beecrowd.com.br/academic/, el cual se encuentra en el apartado 'Students' del curso seleccionado\n\n"+
                     "2) Arraste el archivo en el programa y verifique que le aparezca la ubicacion del archivo en el diálogo correspondiente.\n\n"+
                     "3) Presione el botón comenzar para procesar todos los usuarios y espere a que el proceso finalice.\n\n"+
                     "4) Una vez finalizado el proceso, se creará un archivo .xlsx (excel) con los usuarios que no contengan el perfil con el país y/o la universidad completos.")
